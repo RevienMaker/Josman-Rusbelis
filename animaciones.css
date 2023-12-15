@@ -1,0 +1,54 @@
+@keyframes show-linea {
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+@keyframes show-texto {
+    from{
+        opacity: 0;
+        scale: 60%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+h1, h2, h3, p{
+    view-timeline-name: --linea;
+    view-timeline-axis: block;
+
+    animation-timeline: --linea;
+    animation-name: show-texto;
+
+    animation-range: entry 25% cover 35%;
+    animation-fill-mode: both;
+}
+
+.separador-img{
+    view-timeline-name: --linea;
+    view-timeline-axis: block;
+
+    animation-timeline: --linea;
+    animation-name: show-linea;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+.separador-img-blanco{
+    view-timeline-name: --linea;
+    view-timeline-axis: block;
+
+    animation-timeline: --linea;
+    animation-name: show-linea;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}

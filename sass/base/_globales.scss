@@ -1,0 +1,38 @@
+*{
+    font-family: 'Cormorant Garamond', serif;
+}
+body{
+    max-width: 1200px;
+}
+
+h1 {
+    font-family: 'MonteCarlo', cursive;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0;
+}
+h3 {
+    color: rgb(77, 77, 77);
+    font-family: 'Kalnia', serif;
+    font-size: 35px;
+}
+
+.separador{
+    width: 70%;
+    margin: auto;
+    border: .3px solid rgb(64, 64, 64);
+}
+.separador-img{
+    width: 70%;
+}
+.separador-img-blanco{
+    width: 70%;
+    filter: invert(100%);
+}
+.separador-blanco{
+    width: 50%;
+    margin: auto;
+    border: .3px solid rgb(255, 255, 255);
+}

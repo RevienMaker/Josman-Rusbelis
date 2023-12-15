@@ -1,0 +1,61 @@
+.confirmacion{
+    background-color: rgba(245, 245, 245, 0.932);
+
+    .contenido{
+        height: 100%;
+        padding: 20px;
+        text-align: center;
+
+        h1{
+            font-size: 50px;
+            font-weight: 300;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 35px;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .botones{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            button{
+                width: 100%;
+                max-width: 400px;
+                margin: 20px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+                border: none;
+                background-color: rgb(77, 77, 77);
+                border-radius: 10px;
+                padding: 10px 20px;
+
+                -webkit-box-shadow: 2px -2px 57px 0px rgba(0, 0, 0, 0.34);
+                    -moz-box-shadow: 2px -2px 57px 0px rgba(0, 0, 0, 0.34);
+                    box-shadow: 2px -2px 57px 0px rgba(0, 0, 0, 0.34);
+
+                a{
+                    text-decoration: none;
+                }
+
+                h3{
+                    padding: 10px 0;
+                    font-weight: 300;
+                    font-size: 20px;
+                    color: white;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

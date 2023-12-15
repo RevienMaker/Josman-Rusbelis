@@ -1,0 +1,60 @@
+.lo-que-tienes-que-saber {
+    background-color: rgb(77, 77, 77);
+
+    .contenido {
+        padding: 20px;
+        color: white;
+        text-align: center;
+
+        h1{
+            font-size: 50px;
+            font-weight: 300;
+        }
+        h2{
+            font-weight: 300;
+        }
+        p{
+            margin: 0;
+            font-size: 30px;
+        }
+
+        button{
+            cursor: pointer;
+            padding: 15px 20px;
+            background-color: rgb(77, 77, 77);
+            border: 2px solid white;
+            border-radius: 10px;
+
+            transition: all .3s;
+
+            -webkit-box-shadow: 2px -2px 57px 0px rgba(0, 0, 0, 0.34);
+                -moz-box-shadow: 2px -2px 57px 0px rgba(0, 0, 0, 0.34);
+                box-shadow: 2px -2px 57px 0px rgba(0, 0, 0, 0.34);
+
+            a{
+                text-decoration: none;
+            }
+
+            h3{
+                color:white;
+                font-weight: 400;
+                margin: 0;
+            }
+            
+        }
+        button:hover {
+            -webkit-box-shadow: -1px 0px 66px -18px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -1px 0px 66px -18px rgba(0, 0, 0, 0.75);
+            box-shadow: -1px 0px 66px -18px rgba(0, 0, 0, 0.75);
+        }
+
+        .imagenes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100px;
+            }
+        }
+    }
+}

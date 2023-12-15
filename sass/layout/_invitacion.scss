@@ -1,0 +1,27 @@
+.invitacion{
+    background-color: rgba(245, 245, 245, 0.932);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
+    p{
+        font-weight: 400;
+        font-size: 35px;
+    }
+    .texto-invitacion{
+        
+        h3{
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+        }
+    }
+}
