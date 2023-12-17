@@ -688,4 +688,19 @@ header .contenido .contador {
   font-weight: 300;
 }
 
+.final {
+  background-color: rgba(245, 245, 245, 0.932);
+  padding-bottom: 30px;
+}
+.final .contenido {
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.final .contenido p {
+  color: black;
+  font-size: 30px;
+  font-weight: 300;
+}
+
 /*# sourceMappingURL=styles.css.map */
