@@ -392,6 +392,11 @@ header .contenido {
   text-align: center;
   padding: 20px;
 }
+header .contenido .reproductor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 header .contenido audio::-webkit-media-controls-enclosure {
   background-color: transparent;
 }
@@ -416,11 +421,10 @@ header .contenido #contador {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
   gap: 15px;
 }
 header .contenido #contador .simply-section {
-  background-color: rgba(255, 255, 255, 0.806);
+  background-color: rgba(255, 255, 255, 0.683);
   width: 80px;
   height: 80px;
   display: flex;
@@ -433,7 +437,7 @@ header .contenido #contador .simply-section div {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: rgb(83, 83, 83);
+  color: rgb(69, 69, 69);
 }
 header .contenido #contador .simply-section div span {
   font-size: 28px;

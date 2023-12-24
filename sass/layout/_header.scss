@@ -37,6 +37,12 @@ header{
         text-align: center;
         padding: 20px;
 
+        .reproductor{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         audio::-webkit-media-controls-enclosure {
             background-color: transparent;
         }
@@ -65,10 +71,9 @@ header{
             display: flex;
             justify-content: center;
             align-items: center;
-            color: black;
             gap: 15px;
             .simply-section{
-                background-color: rgba(255, 255, 255, 0.806);
+                background-color: rgba(255, 255, 255, 0.683);
                 width: 80px;
                 height: 80px;
                 display: flex;
@@ -81,7 +86,7 @@ header{
                     align-items: center;
                     justify-content: center;
                     flex-direction: column;
-                    color: rgb(83, 83, 83);
+                    color: rgb(69, 69, 69);
                     span{
                         font-size: 28px;
                         font-family: 'Kalnia', serif;
