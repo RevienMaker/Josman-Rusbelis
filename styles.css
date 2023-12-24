@@ -430,14 +430,14 @@ header .contenido #contador .simply-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 header .contenido #contador .simply-section div {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: rgb(69, 69, 69);
+  color: rgb(83, 83, 83);
 }
 header .contenido #contador .simply-section div span {
   font-size: 28px;
@@ -451,7 +451,7 @@ header .contenido #contador .simply-section div .simply-word {
 }
 
 .invitacion {
-  background-color: rgba(245, 245, 245, 0.932);
+  background-color: rgba(245, 245, 245, 0.767);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -502,7 +502,7 @@ header .contenido #contador .simply-section div .simply-word {
 }
 
 .fotosHash2 {
-  background-color: rgba(245, 245, 245, 0.932);
+  background-color: rgba(245, 245, 245, 0.767) !important;
 }
 .fotosHash2 .contenido {
   height: 100%;
@@ -543,6 +543,12 @@ header .contenido #contador .simply-section div .simply-word {
   margin: 0;
   font-size: 30px;
 }
+.lo-que-tienes-que-saber .contenido .letra-pequena {
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: "Kalnia", serif;
+  font-weight: 300;
+}
 .lo-que-tienes-que-saber .contenido button {
   cursor: pointer;
   padding: 15px 20px;
@@ -577,7 +583,7 @@ header .contenido #contador .simply-section div .simply-word {
 }
 
 .confirmacion {
-  background-color: rgba(245, 245, 245, 0.932);
+  background-color: rgba(245, 245, 245, 0.767);
 }
 .confirmacion .contenido {
   height: 100%;
@@ -682,7 +688,7 @@ header .contenido #contador .simply-section div .simply-word {
 }
 
 .niños {
-  background-color: rgba(245, 245, 245, 0.932);
+  background-color: rgba(245, 245, 245, 0.767);
 }
 .niños .contenido {
   height: 100%;
