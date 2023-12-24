@@ -424,20 +424,20 @@ header .contenido #contador {
   gap: 15px;
 }
 header .contenido #contador .simply-section {
-  background-color: rgba(255, 255, 255, 0.683);
+  background-color: rgba(132, 132, 132, 0.683);
   width: 80px;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 header .contenido #contador .simply-section div {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: rgb(69, 69, 69);
+  color: white;
 }
 header .contenido #contador .simply-section div span {
   font-size: 28px;
